@@ -1,0 +1,249 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+        font-family: Open Sans;
+    }
+
+    .container{
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .header{
+        background: url(img/1.png) no-repeat center /cover;
+        height: 100vh;
+    }
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__list{
+    display: flex;
+    gap: 32px;
+}
+
+.nav__link{
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.5s;
+}
+
+.nav__link:hover{
+    color: #f57520;
+}
+
+.nav__img{
+    display: flex;
+    gap: 35px;
+}
+
+.header__content{
+    margin-top: 80px;
+}
+
+.header__content h1{
+    color: white;
+    font-size: 96px;
+    font-weight: 700;
+    width: 697px;
+}
+
+.header__content p{
+    color: white;
+    width: 645px;
+    height: 87px;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 1%;
+    margin-top: 48px;
+}
+
+.header__content button{
+    background-color: #f57520;
+    border: none;
+    color: white;
+    width: 180px;
+    height: 52px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+h1{
+    margin-top: 170px;
+    font-family: Open Sans;
+font-weight: 800;
+font-size: 64px;
+line-height: 123%;
+letter-spacing: 5%;
+text-align: center;
+
+
+}
+
+.Border{
+    border-radius: 10px;
+}
+
+body{
+    background-color: #777777;
+}
+
+.taxist__yellow{
+    background: url(img/f);
+}
+
+.h{
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: white;    
+}
+
+.p{
+    width: 315px;
+    height: 87px;
+    top: 295px;
+    left: 27px;
+}
+
+.h2{
+    color: white;
+}
+
+.cards{
+    background-color: black;
+    width: 400px;
+    height: 462px;
+    top: 1160px;
+    left: 760px;
+    border-radius: 10px;
+    
+}
+
+h2{
+    color: white;
+    font-family: Open Sans;
+font-weight: 800;
+font-size: 16px;
+line-height: 160%;
+letter-spacing: 0%;
+
+}
+
+p{
+    color: white;
+    font-family: Open Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+letter-spacing: 1%;
+margin-top: 50px;
+}
+
+.carda{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 170px;
+}
+
+.cards{
+    transition: 1s;
+}
+
+.cards:hover{
+    color: black;
+    background-color: #F57520;
+}
+
+.baker{
+    background-color:  #F57520;
+    width: 1519px;
+    height: 636px;
+    top: 2233px;
+    margin-top: 59px;
+    gap: 16px;
+    background-image: url(img/form\ \(1\).png);
+    
+}
+
+h3{
+    width: 620px;
+    height: 98px;
+    top: 52px;
+    left: 320px;
+    font-family: Open Sans;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 123%;
+    letter-spacing: 5%;
+    color: white; 
+    margin-left: 314px;   
+}
+
+input{
+    width: 302px;
+    height: 46px;
+    top: 242px;
+    left: 314px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    gap: 10px;
+    border: 3px solid white;
+    margin-left: 314px;
+    margin-top: 0px;
+}
+
+.input{
+    width: 608px;
+    height: 154px;
+    top: 366px;
+    left: 314px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.tt{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.E-mail{
+    margin-left: 10px;
+}
+
+.map{
+    width : 1519px;
+    height: 500px;
+    top: 2869px;
+    align-items: center;
+}
+
+.back{
+    background-color: black;
+    width: 1519px;
+    height: 370px;
+    top: 3369px;
+    border: 1px solid #000;
+    display: flex;
+}
